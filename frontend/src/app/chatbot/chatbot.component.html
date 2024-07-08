@@ -1,0 +1,68 @@
+
+<br/><br/><br/>
+
+
+  <!--
+  <ng-container *ngFor="let message of messages | async">
+
+    <div class="message" [ngClass]="{ 'from': message.sentBy === 'bot',
+                                      'to':   message.sentBy === 'user' }">
+      {{ message.content }}
+    </div>
+  
+  </ng-container>
+  
+  
+  <label for="nameField">Your Message</label>
+  
+  
+  <input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text"><br>
+  
+  <button (click)="sendMessage()">Send</button>
+
+-->
+<div class="chat-body">
+<section class="msger">
+
+  <main class="msger-chat">
+    <div *ngFor="let m of (messages)">
+      <div class="message">
+        <div class="msg right-msg">
+          <div class="msg-img" style="background-image: url(assets/user.png)"></div>
+    
+          <div class="msg-bubble">
+            <div class="msg-info">
+              <div class="msg-info-name">User</div>
+              <div class="msg-info-time">12:46</div>
+            </div>
+    
+            <div class="msg-text">
+              {{ m.messageSent }}
+            </div>
+          </div>
+        </div>
+        <div class="msg left-msg">
+          <div class="msg-img" style="background-image: url('assets/chatbot.png')"></div>
+    
+          <div class="msg-bubble">
+            <div class="msg-info">
+              <div class="msg-info-name">BOT</div>
+              <div class="msg-info-time">12:45</div>
+            </div>
+    
+            <div class="msg-text">
+              {{ m.messageReceived }}
+            </div>
+          </div>
+        </div>
+   
+        </div>
+    </div>
+  </main>
+
+  <form class="msger-inputarea" [formGroup]="addForm" (ngSubmit)="sendMessage()">
+    <input type="text" class="msger-input" formControlName="messageSent" placeholder="Enter your message...">
+    <button type="submit" class="msger-send-btn">Send</button>
+  </form>
+</section>
+</div>
