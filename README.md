@@ -85,16 +85,4 @@ You may find below the list of the frameworks/libraries that we used to build th
   </div>
 
 
-
-<!-- CONTACT -->
-## 💌 Contact
-
-| <img src="https://user-images.githubusercontent.com/78981558/157719496-9aec4730-512f-4188-87ca-8dbe6271ebfc.jpg" width="150" height="150"/>  <br> **Ahlem Laajili**| 
-| ------------- | 
-|<div align="center"><a href="mailto:ahlem.laajili@esprit.tn"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/></a><a href="https://github.com/ahlem-phantom"><img title="Follow on GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a></div> |
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 Developed with 💕 by **ahlem-phantom**.
